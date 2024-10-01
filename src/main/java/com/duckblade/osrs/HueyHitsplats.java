@@ -76,8 +76,8 @@ public class HueyHitsplats extends Plugin
 		writer.print(client.getBoostedSkillLevel(Skill.STRENGTH));
 		writer.print(',');
 		writer.print(client.getLocalPlayer().hasSpotAnim(2792));
-		writer.print(weapon == null ? -1 : weapon.getId());
 		writer.println(',');
+		writer.print(weapon == null ? -1 : weapon.getId());
 	}
 
 	@Subscribe
